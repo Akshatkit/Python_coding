@@ -97,6 +97,21 @@ def Check_pelindrom(p):
 
 Check_pelindrom(121)
 
-'''
 
+
+# Count Vowels in a String
+
+def CountVar(s):
+    count = 0
+    compair ="aeiouAEIOU"
+    for char in s:
+        if char in compair:
+            count = count+1
+    return count
+
+var = input("Enter String : ")
+vowel = CountVar(var)
+print(f"{vowel} Vowel in {var}") 
+
+'''
 
