@@ -90,7 +90,7 @@ def Check_pelindrom(p):
     temp = p
     while temp > 0:
         digit =temp%10 
-        rev = rev *10 + digit
+        rev = rev * 10 + digit
         temp = temp//10
     print(rev)
 
